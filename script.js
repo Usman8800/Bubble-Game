@@ -51,7 +51,7 @@ function increasescore() {
   document.querySelector("#scoreval").style.fontWeight = "600";
   score += 10;
   document.querySelector("#scoreval").textContent = score
-}
+} 
 
 function Hit() {
   let hitval = Math.floor(Math.random() * 10);
@@ -73,7 +73,5 @@ function Hit() {
 
 }
 Hit();
-
-
 
 
